@@ -1,0 +1,16 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "one-line": false,
+        "comment-format": false,
+        "eofline": false,
+        "quotemark": false,
+        "only-arrow-functions": false,
+        "semicolon": true,
+        "no-consecutive-blank-lines": false,
+        "no-console": false,
+        "no-trailing-whitespace": false,
+        "variable-name": false,
+        "typedef": [true, "call-signature", "arrow-call-signature", "parameter", "arrow-parameter", "property-declaration", "variable-declaration", "member-variable-declaration"]
+    }
+}
